@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/*HEADER SECTION*/
+
+.logo {
+  height: 4.8rem;
+}
+
+header {
+  background-image: url(/asset/1\ blok\ photo.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0a0a0a;
+
+  /* Because we want header to be sticky later */
+  height: 7rem;
+  padding: 0 7rem;
+  position: relative;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 4.8rem;
+}
+
+.nav-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.3s;
+}
+
+.nav-links {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.3s;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 1rem;
+}
+
+.section-hero {
+  padding: 15rem 8rem;
+  justify-content: center;
+  position: absolute;
+}
+
+.heading-primary {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: 100;
+  margin-bottom: 1.6rem;
+}
+
+.heading-secondary {
+  font-size: 5rem;
+  color: #fff;
+  font-weight: 100;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  border: 1px solid #fdf2e9;
+  padding: 1.5rem 6rem;
+  border-radius: 3rem;
+  font-size: 1.5rem;
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* ABOUT SECTION */
+
+.about {
+  padding: 8rem 4rem 0rem 4rem;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  max-width: 1200px;
+}
+
+.about-image img {
+  width: 350px;
+  height: auto;
+}
+
+/* TEXT */
+
+.about-content {
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+}
+
+.about-content h2 {
+  font-size: 32px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 15px;
+  text-align: end;
+}
