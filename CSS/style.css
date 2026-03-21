@@ -11,16 +11,34 @@ html {
 }
 
 body {
-  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+  font-family: didot;
 }
 
 /*HEADER SECTION*/
 
 .logo {
   height: 4.8rem;
+}
+
+.heading {
+  font-size: 40px;
+  padding-left: 30rem;
+  margin-bottom: 4rem;
+  font-size: 4rem;
+  font-weight: 300;
+  font-family: raleway;
+}
+
+.headings {
+  font-size: 40px;
+  padding-left: 30rem;
+  margin-bottom: 4rem;
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: raleway;
 }
 
 header {
@@ -218,13 +236,15 @@ header {
 /* TEAM SECTION */
 
 .gallery {
-  padding: 80px 10%;
+  padding: 8rem 0rem 0rem;
+  justify-content: center;
 }
 
 .gallery h2 {
   font-size: 40px;
   margin-bottom: 10px;
   justify-content: center;
+  position: absolute;
 }
 
 .gallery-subtitle {
@@ -244,6 +264,19 @@ header {
   display: flex;
   justify-content: center;
   gap: 2rem;
+  margin-bottom: 7rem;
+}
+
+.gallery-containerses {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.gallery-containerses {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .gallery-card {
@@ -258,5 +291,139 @@ header {
 
 .gallery-card h3 {
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 14px;
+}
+
+.pricing {
+  padding: 80px 1px;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.pricing-title {
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.pricing-subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+
+.pricing-grid {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.pricing-column {
+  min-width: 200px;
+}
+
+.pricing-column p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin: 10px 0;
+  padding-bottom: 2rem;
+}
+
+.contact {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  background-image: url(/asset/image\ 2.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+
+  padding: 25rem 0rem;
+}
+
+.contact-container {
+  color: #fff;
+}
+
+.contact-container h3 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 100;
+  margin-bottom: 1.6rem;
+}
+
+.contact-container p {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 8rem 0rem;
+  height: 50vh;
+}
+
+.contact-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info p {
+  font-size: 1.5rem;
+  color: #000;
+  line-height: 1.7;
+}
+
+.contact-info h2 {
+  font-size: 4rem;
+  color: #000;
+  font-weight: 100;
+  margin-bottom: 1.6rem;
+}
+
+.footer {
+  padding: 8rem 0rem;
+  text-align: center;
+  font-family: "Georgia", serif;
+  color: #222;
+  background-color: #0a0a0a;
+  height: 30vh;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.footer-item h4 {
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.footer-item p {
+  font-size: 15px;
+  color: #999;
+  margin-bottom: 1rem;
 }
