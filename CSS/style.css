@@ -103,6 +103,10 @@ body {
   padding-bottom: 1rem;
 }
 
+.header-content {
+  justify-content: center;
+}
+
 .about {
   padding: 8rem 0rem;
   justify-content: end;
