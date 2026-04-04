@@ -78,33 +78,41 @@ body {
 .navigation {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: #0a0a0a;
   padding: 2rem 7rem;
 }
 
 .nav-list {
   display: flex;
-  gap: 3rem;
+ 
   list-style: none;
   padding: 2rem;
 }
+.menu {
+  display: none;
+  cursor: pointer;
+}
 
-.nav-link {
+.nav-link{
   list-style: none;
   text-decoration: none;
   color: #fff;
+  padding: 1rem 2rem;
+
+}
+.nav-link:hover{
+  background-color: #555;
+  transition: all 500ms ease-in-out;
+  border-bottom: #fff solid 1px;
 }
 
-.nav-links {
-  list-style: none;
-  text-decoration: none;
-  color: #fff;
-  border-bottom: 1px solid #fdf2e9;
-  padding-bottom: 1rem;
-}
+
+
 
 .header-content {
   justify-content: center;
+  align-items: center;
 }
 
 .about {

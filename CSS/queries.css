@@ -48,29 +48,24 @@
   }
 
   /* MOBILE NAVIGATION */
+.navigation {
+  padding: 1rem 3rem;
+  .nav-links, .nav-link{
+font-size: 1.4rem;
+  }
+}
 
   .nav-list {
-    background-color: rgba(255, 255, 255, 0.97);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    transform: translateX(100%);
-
+   
     display: flex;
     align-items: center;
     justify-content: center;
     transition: all 0.5s ease-in;
 
-    /* Hide navigation */
-    /* Allows NO transitions at all */
-    /* display: none; */
-
-    /* 1) Hide it visually */
+   
     opacity: 0;
 
-    /* 2) Make it unaccessible to mouse and keyboard */
+ 
     pointer-events: none;
 
     /* 3) Hide it from screen readers */
@@ -102,6 +97,18 @@
     justify-content: center;
     align-items: center;
   }
+}
+/**************************/
+/* BELOW 744px (Small tablets) */
+/**************************/
+@media (max-width: 49em) {
+.navigation{
+  flex-direction: column;
+  justify-content: center;align-items: center;
+}
+.logo{
+  height: 5rem;
+}
 }
 /**************************/
 /* BELOW 704px (Smaller tablets) */
@@ -163,5 +170,24 @@
 
   .testimonials {
     grid-template-columns: 1fr;
+  }
+}
+
+/**************************/
+/* BELOW 480px (small-Phones) */
+/**************************/
+@media (max-width: 32em) {
+  .nav-list {
+    display: none;
+  }
+  .navigation {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+  .menu {
+    display: block;
+    width: 40px;
+    height: 40px;
   }
 }
